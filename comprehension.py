@@ -1,11 +1,11 @@
 import random # import random module
 
-guessesTaken = 0 # global variable, counting how many guesses taken 
+guessesTaken = 0 # assign zero to guessesTaken variable 
 
 print('Hello! What is your name?') # print out the text between the parentheses
-myName = input() # user input assigned to a global variable
+myName = input() # user input assigned to myName global variable
 
-number = random.randint(1, 20) # generate a random number between 1, 20 and save it in a global variable
+number = random.randint(1, 20) # generate a random number between 1, 20 and assign it to a global variable
 print('Well, ' + myName + ', I am thinking of a number between 1 and 20.') # print out the text between the parentheses
 
 while guessesTaken < 6: # the code below this line will be executed til' the variable value less than 6
